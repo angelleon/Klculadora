@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-113dp">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".25" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".27" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".38" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".40" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".42" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".53" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".55" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".57" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".68" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".70" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".72" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".83" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".85" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".87" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideH60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent=".98" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".02" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".23" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".25" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".27" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".48" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".50" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".52" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".73" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".75" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".77" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintGuide_percent=".98" />
+
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="CE"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH20"
+            app:layout_constraintEnd_toStartOf="@+id/guideV10"
+            app:layout_constraintStart_toStartOf="@+id/guideV01"
+            app:layout_constraintTop_toTopOf="@+id/guideH11" />
+
+        <Button
+            android:id="@+id/btnOver"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="&#x00f7;"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH20"
+            app:layout_constraintEnd_toStartOf="@+id/guideV20"
+            app:layout_constraintStart_toStartOf="@+id/guideV11"
+            app:layout_constraintTop_toTopOf="@+id/guideH11" />
+
+        <Button
+            android:id="@+id/btnTimes"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="&#x00d7;"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH20"
+            app:layout_constraintEnd_toStartOf="@+id/guideV30"
+            app:layout_constraintStart_toStartOf="@+id/guideV21"
+            app:layout_constraintTop_toTopOf="@+id/guideH11" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="-"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH20"
+            app:layout_constraintEnd_toStartOf="@+id/guideV40"
+            app:layout_constraintStart_toStartOf="@+id/guideV31"
+            app:layout_constraintTop_toTopOf="@+id/guideH11" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="7"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH30"
+            app:layout_constraintEnd_toStartOf="@+id/guideV10"
+            app:layout_constraintStart_toStartOf="@+id/guideV01"
+            app:layout_constraintTop_toTopOf="@+id/guideH21" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="8"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH30"
+            app:layout_constraintEnd_toStartOf="@+id/guideV20"
+            app:layout_constraintStart_toStartOf="@+id/guideV11"
+            app:layout_constraintTop_toTopOf="@+id/guideH21" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="9"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH30"
+            app:layout_constraintEnd_toStartOf="@+id/guideV30"
+            app:layout_constraintStart_toStartOf="@+id/guideV21"
+            app:layout_constraintTop_toTopOf="@+id/guideH21" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="+"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH40"
+            app:layout_constraintEnd_toStartOf="@+id/guideV40"
+            app:layout_constraintStart_toStartOf="@+id/guideV31"
+            app:layout_constraintTop_toTopOf="@+id/guideH21" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="4"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH40"
+            app:layout_constraintEnd_toStartOf="@+id/guideV10"
+            app:layout_constraintStart_toStartOf="@+id/guideV01"
+            app:layout_constraintTop_toTopOf="@+id/guideH31" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="5"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH40"
+            app:layout_constraintEnd_toStartOf="@+id/guideV20"
+            app:layout_constraintStart_toStartOf="@+id/guideV11"
+            app:layout_constraintTop_toTopOf="@+id/guideH31" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="6"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH40"
+            app:layout_constraintEnd_toStartOf="@+id/guideV30"
+            app:layout_constraintStart_toStartOf="@+id/guideV21"
+            app:layout_constraintTop_toTopOf="@+id/guideH31" />
+
+        <Button
+            android:id="@+id/btnEqual"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="="
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toBottomOf="@+id/guideH60"
+            app:layout_constraintEnd_toStartOf="@+id/guideV40"
+            app:layout_constraintStart_toStartOf="@+id/guideV31"
+            app:layout_constraintTop_toTopOf="@+id/guideH41" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="1"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH50"
+            app:layout_constraintEnd_toStartOf="@+id/guideV10"
+            app:layout_constraintStart_toStartOf="@+id/guideV01"
+            app:layout_constraintTop_toTopOf="@+id/guideH41" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="2"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH50"
+            app:layout_constraintEnd_toStartOf="@+id/guideV20"
+            app:layout_constraintStart_toStartOf="@+id/guideV11"
+            app:layout_constraintTop_toTopOf="@+id/guideH41" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="3"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toTopOf="@+id/guideH50"
+            app:layout_constraintEnd_toStartOf="@+id/guideV30"
+            app:layout_constraintStart_toStartOf="@+id/guideV21"
+            app:layout_constraintTop_toTopOf="@+id/guideH41" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="&#x27f5;"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toBottomOf="@+id/guideH60"
+            app:layout_constraintEnd_toStartOf="@+id/guideV10"
+            app:layout_constraintStart_toStartOf="@+id/guideV01"
+            app:layout_constraintTop_toTopOf="@+id/guideH51" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="0"
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toBottomOf="@+id/guideH60"
+            app:layout_constraintEnd_toStartOf="@+id/guideV20"
+            app:layout_constraintStart_toStartOf="@+id/guideV11"
+            app:layout_constraintTop_toTopOf="@+id/guideH51" />
+
+        <Button
+            android:id="@+id/btnPoint"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:text="."
+            android:textSize="@dimen/szButtonsText"
+            app:layout_constraintBottom_toBottomOf="@+id/guideH60"
+            app:layout_constraintEnd_toStartOf="@+id/guideV30"
+            app:layout_constraintStart_toStartOf="@+id/guideV21"
+            app:layout_constraintTop_toTopOf="@+id/guideH51" />
+
+
+        <ScrollView
+            android:id="@+id/visor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideH1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/lytDisplayContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <EditText
+                    android:id="@+id/txtDisplay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="monospace"
+                    android:inputType="textMultiLine"
+                    android:textColor="#000000"
+                    android:textSize="36sp"
+                    app:layout_constraintBottom_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
